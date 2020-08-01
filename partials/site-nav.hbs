@@ -21,20 +21,22 @@
             {{navigation type="secondary"}}
         {{else}}
             <div class="social-links">
-                {{#if @site.facebook}}
-                    <a class="social-link social-link-fb" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
-                {{/if}}
-                {{#if @site.twitter}}
-                    <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
-                {{/if}}
+                <a style="color: #3273dc;" class="social-link social-link-fb" href="https://www.facebook.com/DiscordExtremeList" aria-label="Facebook" target="_blank" rel="noopener">
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a style="color: #3298dc;" class="social-link social-link-tw" href="https://twitter.com/ExtremeList" aria-label="Twitter" target="_blank" rel="noopener">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a style="color: #b114ff; font-size: 14px;" class="social-link social-link-tw" href="https://instagram.com/discordextremelist" aria-label="Instagram" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a style="color: #ffffff;" class="social-link social-link-tw" href="https://github.com/discordextremelist" aria-label="GitHub" target="_blank" rel="noopener">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a style="color: #f24405;" class="social-link social-link-tw" href="https://www.patreon.com/discordextremelist" aria-label="Patreon" target="_blank" rel="noopener">
+                    <i class="fab fa-patreon" aria-hidden="true"></i>
+                </a>
             </div>
-            {{#unless @labs.members}}
-                <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
-            {{/unless}}
-        {{/if}}
-
-        {{#if @labs.members}}
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
         {{/if}}
     </div>
 </nav>
