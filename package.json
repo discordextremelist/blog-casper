@@ -2,7 +2,7 @@
     "name": "del-casper",
     "description": "A fork of ghost's default theme, casper, redesigned specifically for Discord Extreme List.",
     "demo": "https://demo.ghost.io",
-    "version": "3.0.15",
+    "version": "3.0.16",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
