@@ -162,23 +162,26 @@ body {
     z-index: 10;
     margin: 0 0 0 -2px;
     padding: 0;
-    font-size: 5.0rem;
-    line-height: 1em;
+    font-size: 2em !important;
+    line-height: 1.125;
     font-weight: 600;
+    font-family: "Lexend Deca", sans-serif !important;
 }
 
 .site-logo {
-    max-height: 55px;
+    max-height: 128px;
+    padding: 5px;
 }
 
 .site-description {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
-    font-size: 2.1rem;
-    line-height: 1.4em;
+    font-size: 1.25rem;
+    line-height: 1.25;
     font-weight: 400;
-    opacity: 0.8;
+    font-family: "Lexend Deca", sans-serif !important;
+    color: #d8d8d8 !important;
 }
 
 /* 4.1 Home header
