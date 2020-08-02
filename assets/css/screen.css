@@ -168,6 +168,14 @@ body {
     font-family: "Lexend Deca", sans-serif !important;
 }
 
+img.emoji {
+    height: 1em !important;
+    width: 1em;
+    margin: 0 .05em 0 .1em !important;
+    vertical-align: -.229em;
+    display: unset !important;
+}
+
 .site-logo {
     max-height: 128px;
     padding: 5px;
